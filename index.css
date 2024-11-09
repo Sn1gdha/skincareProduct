@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #171502;
+    margin: 1;
+  }
+  header, footer {
+    background-color: #fdecec;
+    color: #150202;
+    padding: 1em;
+    text-align: top left;
+    text-align: left;
+  }
+  nav a {
+    color: #151313;
+    margin: 0 2em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  nav a:hover {
+    color: #ec1435;
+  }
+  .home-content {
+    display: flex;
+    gap: 400px;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-item {
+    text-align: center;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1em;
+    padding: 2em;
+  }
+  .grid-item {
+    text-align: center;
+  }
+  .contact-form {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 0px solid #ccc;
+    border-radius: 3px;
+  }
+  .contact-form label {
+    display: block;
+    margin-top: 1em;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+  .contact-form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .contact-form button:hover {
+    background-color: #ff6347;
+  }
+  
